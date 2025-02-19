@@ -2,7 +2,7 @@
 
 ## Objective
 
-Export the learning, learned and about to learn cards from Anki, and fill them in a prompt, and send it to a LLM. Ask the LLM to generate a passage that is suitable for your current language level.
+Export the specific notes from Anki programatically. You can specify the conditions and the fields you want to export.
 
 ## Setup
 
@@ -30,7 +30,9 @@ pip install -r requirements.txt
 ANKI_PATH=/path/to/your/anki/collection.anki2
 ```
 
-4. Run the extractor:
+4. Create a `queries.py` file in the root directory with your queries. A sample file is provided in `sample.queries.py`.
+
+5. Run the extractor:
 
 ```bash
 python main.py
