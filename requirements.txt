@@ -1,0 +1,2 @@
+anki==24.11
+python-dotenv==1.0.1
