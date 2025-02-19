@@ -1,4 +1,4 @@
-# Anki Card Extractor
+# Anki Note Extractor
 
 ## Objective
 
